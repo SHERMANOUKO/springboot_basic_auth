@@ -14,10 +14,14 @@ public class Student {
         return this.studentId;
     }
 
-
     public String getStudentName() {
         return this.studentName;
     }
 
+    @Override
+    public String toString() {
+        return "Student [studentId=" + studentId + ", studentName=" + studentName + "]";
+    }
 
+    
 }
